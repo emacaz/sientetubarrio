@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Playfair Display', serif;
 }
 .hero-section {
     background-image: url('./images/mercado.png');
@@ -68,6 +69,57 @@
     color: #333;
 }
 
+.section-pymes, .section-usuarios {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.section-pymes h2, .section-usuarios h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.section-pymes p, .section-usuarios p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.mockup-container img {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.contact-section {
+    text-align: center;
+    padding: 40px;
+    background-color: #fff;
+    border: solid 1px #000;
+}
+
+.contact-section h2 {
+    margin-bottom: 20px;
+}
+
+.image-container {
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.contact-info {
+    margin-bottom: 20px;
+}
+
 @media (max-width: 600px) {
     .hero-section {
         height: 50vh;
@@ -76,5 +128,12 @@
         top: 10px;
         left: 10px;
         height: 80px;
+    }
+
+
+    .image-container img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
     }
 }
